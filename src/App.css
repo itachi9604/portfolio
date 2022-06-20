@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+body{
+  background-color: #EAF9E7;
+  color: #013237;
+  font-family: 'Inconsolata', monospace;
+  font-size: 22px;
+}
+img {
+    width: 50px;
+    height: 50px;
+    border-color: brown;
+    
+}
+
+.skills figure{
+  display: inline-block;
+  margin-left: 5%;
+  margin: 2%;
+}
+
+.skills article{
+  margin-left: 8%;
+  margin-right: 20%;
+}
+
+.contribution-skills figure{
+  display: inline-block;
+  margin-left: 5%;
+  margin: 2%;
+}
+
+.copy-icon{
+  cursor: pointer;
+  padding: 2px;
+  border: 1px solid black;
+}
+
+.copy-icon-clicked{
+  cursor: pointer;
+  padding: 2px;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+}
+
+.end-brackets{
+  color: rgb(153, 153, 153);
+}
+.curly-braces{
+  font-size: 30px;
+  margin: 3px;
+  font-weight: 900;
+}
+
+.section-name{
+  font-size: 18px;
+  background-color: #a5d69b;
+  font-weight: 800;
+  margin: 2px;
+}
+.base-component{
+  margin: 3px;
+}
+
+.main-app{
+  margin-top: 20px;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.level-zero-margin {
+  margin-left: 3%;
+}
+
+.level-one-margin {
+  margin-left: 6%;
+}
+
+.level-two-margin {
+  margin-left: 8%;
+}
+
+.level-two-margin {
+  margin-left: 10%;
+}
+
+
+
+.full-name{
+  font-size: 50px;
+  margin: 0%;
+  margin-left: 8%;
+  
+}
+.profile-links{
+  margin-left: 8%;
+}
+
+.roles{
+  font-weight: bold;
+}
+
+.mozilla-icon img{
+  width: 100px;
+    height:40px;
+}
+.react-logo-spin{
+
+  animation: rotation infinite 3s linear;
+}
+
+@keyframes rotation{
+  from{
+    transform:rotate(0deg);
+  }
+
+  to{
+    transform:rotate(360deg);
+  }
+}
