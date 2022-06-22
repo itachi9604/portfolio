@@ -57,6 +57,7 @@ img {
   background-color: #a5d69b;
   font-weight: 800;
   margin: 2px;
+  cursor: pointer;
 }
 .base-component{
   margin: 3px;
