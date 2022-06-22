@@ -1,4 +1,5 @@
 import './App.css';
+import Alerter from './components/Alerter';
 import Contact from './components/Contact';
 import Contributions from './components/Contributions';
 import Experience from './components/Experience';
@@ -14,6 +15,7 @@ function App() {
   
   return (
   <>
+    <Alerter />
     <div className="main-app">
     <MainName cssProperty="level-one-margin" name="Pranay Patil"></MainName>
     <Profile cssProperty="level-one-margin" />
