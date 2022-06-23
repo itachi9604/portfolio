@@ -16,7 +16,7 @@ export default function Contributions() {
        
             <BaseObject name="contributions" data={
                 <>  <div className="level-one-margin mozilla-icon">
-                    <a href="https://github.com/mozilla/bedrock" target="_blank" rel="noreferrer noopener"><img class="contibution-mozilla" src={Mozilla} alt="" />
+                    <a href="https://github.com/mozilla/bedrock" target="_blank" rel="noreferrer noopener"><img className="contibution-mozilla" src={Mozilla} alt="" />
                     <span> Mozilla Bedrock</span>
                     </a></div>
                     <div className="level-two-margin">

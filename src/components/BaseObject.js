@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import '../App.css';
 
-function randomColor(){
+let randomColor = ()=>{
     let colors = ["red", "purple", "blue", "#442200", "orange","#0f3b57", "#11574a", "#985538", "#674c47"]
     let fontColor = colors[Math.floor(Math.random() * colors.length)];
     return ({ color: fontColor });

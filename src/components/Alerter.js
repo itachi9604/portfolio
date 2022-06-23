@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 export default function Alerter() {
+    
     const [alertBox, setalertBox] = useState("display");
     setTimeout(() => {
         setalertBox("un_display");
@@ -8,7 +9,7 @@ export default function Alerter() {
     if (alertBox === "display"){
         return (
         
-            <div class="alert alert-success" role="alert">
+            <div className="alert alert-success" role="alert">
                 Click on highlighted fields to Expand or Colapse
                 </div>
         )
