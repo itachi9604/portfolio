@@ -35,7 +35,7 @@ img {
   border: 1px solid black;
 }
 
-.copy-icon:hover{
+.copy-icon:active{
   border-left: 5px solid black;
   border-bottom: 5px solid black;
 
@@ -47,8 +47,7 @@ img {
   padding: 2px;
   background-color: black;
   color: white;
-  border-left: 5px solid white;
-  border-bottom: 5px solid white;
+
 }
 
 .end-brackets{
@@ -98,6 +97,7 @@ img {
   font-size: 50px;
   margin: 0%;
   margin-left: 8%;
+  font-weight: bold;
   
 }
 .profile-links{
