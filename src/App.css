@@ -35,19 +35,21 @@ img {
   border: 1px solid black;
 }
 
-.copy-icon:active{
-  border-left: 5px solid black;
-  border-bottom: 5px solid black;
-
+.copy-icon:hover{
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  transition: 100ms;
 }
-
 
 .copy-icon-clicked{
   cursor: pointer;
-  padding: 2px;
+  padding: 4px;
   background-color: black;
   color: white;
 
+}
+
+.postman-image img{
+  border-radius: 50px;
 }
 
 .end-brackets{
@@ -66,6 +68,8 @@ img {
   margin: 2px;
   cursor: pointer;
 }
+
+
 .base-component{
   margin: 3px;
 }
@@ -126,3 +130,4 @@ img {
     transform:rotate(360deg);
   }
 }
+

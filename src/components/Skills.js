@@ -32,7 +32,7 @@ export default function Skills() {
                 <figure >
                     <img alt="" src={images["sql.png"]} /><figcaption>SQL</figcaption>
                 </figure>
-                <figure >
+                <figure className="postman-image">
                     <img alt="" src={images["postman.png"]} /><figcaption>Postman</figcaption>
                 </figure>
                 <figure >

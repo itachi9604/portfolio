@@ -9,7 +9,7 @@ export default function Experience() {
                     <a href="https://www.logicmonitor.com">
                     <img src={LM_logo} alt="Logicmonitor logo" /><span> Logicmonitor</span></a>
                     <ul>
-                        <li><span>Automation Engineer | Jan 2022</span></li><br />
+                        <li><span>Automation Engineer | Jan 2022 - Present</span></li><br />
                         <li><span>Associate Automation Engineer | Dec 2020 - Dec 2021</span></li>
                     </ul></div>
                     <section className="level-two-margin">
