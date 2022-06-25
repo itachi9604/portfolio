@@ -36,8 +36,8 @@ img {
 }
 
 .copy-icon:hover{
-  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
-  transition: 100ms;
+  box-shadow:  -5px -5px 0px 0px;
+  transition: 200ms;
 }
 
 .copy-icon-clicked{
@@ -45,7 +45,7 @@ img {
   padding: 4px;
   background-color: black;
   color: white;
-
+  transition: 200ms;
 }
 
 .postman-image img{
